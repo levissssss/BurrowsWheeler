@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="Burrows-Wheeler:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Burrows_Wheeler_jar</output-path>
-    <root id="archive" name="Burrows-Wheeler.jar">
-      <element id="module-output" name="Burrows-Wheeler" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../algs4.jar" path-in-jar="/" />
-    </root>
-  </artifact>
-</component>
