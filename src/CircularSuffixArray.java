@@ -10,6 +10,9 @@ public class CircularSuffixArray {
      * @param s
      */
     public CircularSuffixArray(String s){
+        if (s == null){
+            throw new IllegalArgumentException();
+        }
         string = s.toCharArray();
         buildSuffixes();
         sortSuffixes();
@@ -56,6 +59,9 @@ public class CircularSuffixArray {
      * @return index of ith sorted suffix
      */
     public int index(int i){
+        if (i < 0 || i >= length()){
+            throw new IllegalArgumentException();
+        }
         return suffixes[i];
     }
 

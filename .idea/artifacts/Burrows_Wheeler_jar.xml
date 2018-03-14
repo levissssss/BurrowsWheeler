@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="Burrows-Wheeler:jar">
+  <artifact type="jar" build-on-make="true" name="Burrows-Wheeler:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Burrows_Wheeler_jar</output-path>
     <root id="archive" name="Burrows-Wheeler.jar">
       <element id="module-output" name="Burrows-Wheeler" />
